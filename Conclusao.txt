@@ -1,0 +1,25 @@
+ALUNO: Marcos Gabriel de Sousa Ferreira    TSI-P5
+
+
+
+Análise de Correlação entre Idade das Mães Adolescentes e Peso Médio dos Recém-Nascidos nos Estados Unidos
+
+Objetivo:
+Este programa tem como objetivo verificar a existência de correlação entre a idade das mães quando adolescentes (entre 13 e 19 anos) 
+e o peso médio dos recém-nascidos nos Estados Unidos.
+
+Materiais e Métodos:
+Os dados são obtidos a partir de arquivos de registro de nascimentos disponíveis no CDC (Centers for Disease Control and Prevention) 
+dos últimos 16 anos. Cada arquivo contém registros organizados por linha, onde a idade da mãe está na posição específica 75-76 e o 
+peso do bebê está na posição 504-507, conforme especificado no "User's Guide". O programa utiliza processamento paralelo com threads 
+em Python para processar os arquivos de dados de forma eficiente.
+
+Resultados das Correlações:
+A análise revela uma correlação significativa entre a idade das mães adolescentes e o peso médio dos recém-nascidos. A correlação 
+total dos dados foi de 0.96, indicando uma forte associação entre essas variáveis. Além disso, a média de peso dos recém-nascidos 
+nessa faixa etária foi de 3003.5g.
+
+Conclusão:
+Os resultados sugerem que a idade materna durante a adolescência está fortemente relacionada ao peso dos bebês ao nascer nos Estados Unidos. 
+Com base nessa correlação, sugere-se que empresas e órgãos de saúde desenvolvam estratégias para fornecer informações e cuidados personalizados 
+para mães adolescentes, visando promover uma gravidez saudável e o bem-estar dos recém-nascidos.
